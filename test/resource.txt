@@ -1,0 +1,14 @@
+*** Settings ***
+#Resource       resource.txt
+
+*** Variables ***
+${USER}         Test User
+${USER2}        KamilBabayev
+
+*** Keyword ***
+Print welcome message for        [Arguments]    ${USER}
+        Log             Welcome ${USER}!
+
+Print greeting message for        [Arguments]    ${USER}
+        Log             Welcome ${USER2}!
+
