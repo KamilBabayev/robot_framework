@@ -1,5 +1,10 @@
 #  Adding custom JSON format output for robot framework 
 
+Building image from Dockerfile will make necessary changes.
+/test directory contains  simple  test robot file for testing result.
+
+
+
 Repo contains custom code changes to python robot library
 which enables converting default xml output to json format.
 We get both output.xml and output.json files as a result 
